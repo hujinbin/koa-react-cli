@@ -14,6 +14,10 @@ module.exports = [
         entry: {
             bundle: './src'
         },
+        devtool: 'cheap-source-map',
+        optimization: {
+            minimize: true
+        },
         output: {
             path: path.resolve(__dirname, '../dist'),
             filename: 'js/[chunkhash:8].[name].js',
@@ -56,7 +60,7 @@ module.exports = [
                 filename: 'css/[contenthash:8].[name].css'
             }),
             new HtmlWebpackPlugin({
-                filename: './src/index.html',
+                filename: './index.html',
                 template: './src/template.html',
                 chunksSortMode: 'none'
             })
