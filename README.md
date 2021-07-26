@@ -1,3 +1,6 @@
+## 介绍
+
+基于koa+react+webpack搭建的脚手架，后端代码和前端代码在一个项目中，ssr服务
 
 ## 使用案例
 惊觉: https://jue.leheavengame.com
