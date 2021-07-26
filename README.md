@@ -1,6 +1,6 @@
 
 ## 使用案例
-惊觉:http://jue.leheavengame.com/
+惊觉: https://jue.leheavengame.com
 
 ## Build Setup
 

@@ -14,7 +14,8 @@ module.exports = [
         entry: {
             bundle: './src'
         },
-        devtool: 'cheap-source-map',
+        mode: 'production',
+        devtool: 'source-map',
         optimization: {
             minimize: true
         },
