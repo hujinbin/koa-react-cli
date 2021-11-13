@@ -76,6 +76,7 @@ module.exports = [
             filename: '[name].js',
             chunkFilename: 'chunk.[name].js'
         },
+        mode: 'production',
         target: 'node',
         node: {
             __filename: true,
